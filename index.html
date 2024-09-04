@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Grade Calculator</title>
+      <style>
+         body {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+         }
+         .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+         }
+         input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+         }
+         button {
+            background-color: #af4c96;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+         }
+         button:hover {
+            background-color: #a04545;
+         }
+         label {
+            font-weight: bold;
+            margin-top: 15px;
+            display: block;
+         }
+      </style>
+   </head>
+   <script>
+      function displayME() {
+         var name = document.getElementById('name').value;
+         var IP1 = document.getElementById('IP1').value;
+         var IM1 = document.getElementById('IM1').value;
+         var OOP = document.getElementById('OOP').value;
+         var EDP = document.getElementById('EDP').value;
+         var HC2 = document.getElementById('HC2').value;
+
+         var total = Number(IP1) + Number(IM1) + Number(OOP) + Number(EDP) + Number(HC2);
+         var average = total / 5;
+         alert("NAME: " + name + "\nIP1: " + IP1 + "\nIM1: " + IM1 + "\nOOP: " + OOP + "\nEDP: " + EDP + "\nHC2: " + HC2 + "\nAVERAGE: " + average);
+      }
+   </script>
+   <body>
+      <div class="container">
+         <br>GRADE CALCULATOR<br>
+         <label for="name">NAME:</label>
+         <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+         <label for="IP1">IP1:</label>
+         <input type="text" id="IP1" placeholder="Enter your grade for IP1"><br><br>
+
+         <label for="IM1">IM1:</label>
+         <input type="text" id="IM1" placeholder="Enter your grade for IM1"><br><br>
+
+         <label for="OOP">OOP:</label>
+         <input type="text" id="OOP" placeholder="Enter your grade for OOP"><br><br>
+
+         <label for="EDP">EDP:</label>
+         <input type="text" id="EDP" placeholder="Enter your grade for EDP"><br><br>
+
+         <label for="HC2">HC2:</label>
+         <input type="text" id="HC2" placeholder="Enter your grade for HC2"><br><br>
+
+         <button onclick="displayME()">COMPUTE</button>
+      </div>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
